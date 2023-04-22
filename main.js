@@ -29,35 +29,3 @@
 // })
 
 
-// const apiKrey = 'a7e59e01a6518949ba2130b786f3d541';
-const out = document.querySelector('.out');
-const send = document.querySelector('#send');
-
-// send.addEventListener('click', () => {
-//     const input = document.querySelector('#input').value;
-//     const num = 25;
-//     switch(num) {
-//         case 25 : out.textContent = 'winner number 25'; break;
-//         case 20 : 
-//         case 20 : 
-//         case 20 : 
-//         case 20 : 
-//     }
-// });
-
-var num = 30;
-switch (num) {
-  case 25:
-    alert( '25' );
-    break;
-
-  case 10:
-  case 20:
-  case 30:
-  case 40:
-    alert( 'От 1 до 4-х десятков' );
-    break;
-
-  default:
-    alert( 'Числа нет в базе' );
-}
